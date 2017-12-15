@@ -1,11 +1,8 @@
 exports.config = {
   bundles: [
-    { components: ['my-app', 'app-home'] },
-    { components: ['app-profile'] }
+    { components: ['my-progress'] },
   ],
-  collections: [
-    { name: '@stencil/router' }
-  ]
+  generateDistribution: true,
 };
 
 exports.devServer = {
